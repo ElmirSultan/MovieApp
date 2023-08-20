@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body,html{
+    transition: all .3s ease;
+}
+.es-logo{
+    background-color: #FD8D14;
+}
+.es-logo p{
+    font-family: 'Teko', sans-serif;
+}
+
+.nav-link{
+    color: #FD8D14;
+}
+
+
+@media(max-width:500px){
+    .es-logo{
+        font-size: 20px;
+        padding: 1rem 0;
+        text-align: center;
+        width: 100%;
+    }
+    .search-div{
+        width: 100%;
+    }
+    .header{
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
